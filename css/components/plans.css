@@ -44,7 +44,20 @@
   text-align: center;
 }
 
-/* line 29, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 25, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.basic_plan:hover {
+  content: attr("Buy");
+  width: 390px;
+  height: 290px;
+  transition: 1s;
+  background-color: #25365d;
+  opacity: 1;
+  content: "BUY";
+  color: grey;
+  font-size: 25px;
+}
+
+/* line 40, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .basic_plan h4 {
   font-size: 18px;
   font-family: "MariadPro";
@@ -52,7 +65,7 @@
   padding-bottom: 55px;
 }
 
-/* line 34, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 45, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .basic_plan span {
   display: inline-block;
   font-size: 72px;
@@ -62,7 +75,7 @@
   padding-bottom: 55px;
 }
 
-/* line 41, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 52, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .prof_plan {
   height: 285px;
   width: 360px;
@@ -70,7 +83,20 @@
   text-align: center;
 }
 
-/* line 46, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 53, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.prof_plan:hover {
+  content: attr("Buy");
+  width: 390px;
+  height: 290px;
+  transition: 1s;
+  background-color: #25365d;
+  opacity: 1;
+  content: "BUY";
+  color: grey;
+  font-size: 25px;
+}
+
+/* line 68, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .prof_plan h4 {
   font-size: 18px;
   font-family: "MariadPro";
@@ -78,7 +104,7 @@
   padding-bottom: 55px;
 }
 
-/* line 51, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 73, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .prof_plan span {
   display: inline-block;
   font-size: 72px;
@@ -88,7 +114,7 @@
   padding-bottom: 55px;
 }
 
-/* line 58, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 80, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .master_plan {
   height: 285px;
   width: 360px;
@@ -96,7 +122,20 @@
   text-align: center;
 }
 
-/* line 63, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 81, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.master_plan:hover {
+  content: attr("Buy");
+  width: 390px;
+  height: 290px;
+  transition: 1s;
+  background-color: #25365d;
+  opacity: 1;
+  content: "BUY";
+  color: grey;
+  font-size: 25px;
+}
+
+/* line 96, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .master_plan h4 {
   font-size: 18px;
   font-family: "MariadPro";
@@ -104,7 +143,7 @@
   padding-bottom: 55px;
 }
 
-/* line 68, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 101, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .master_plan span {
   display: inline-block;
   font-size: 72px;
@@ -114,14 +153,14 @@
   padding-bottom: 55px;
 }
 
-/* line 77, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 110, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .support img {
   display: block;
   margin: 0 auto;
   padding-bottom: 30px;
 }
 
-/* line 81, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 114, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .support h4 {
   font-size: 22px;
   font-family: "MariadPro";
@@ -130,32 +169,46 @@
   padding-bottom: 40px;
 }
 
-/* line 87, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 120, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 91, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 124, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .contact_email {
   padding-right: 95px;
 }
 
-/* line 93, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 126, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .contact_email a {
   font-size: 22px;
   font-family: "MariadPro";
   color: #25365d;
   font-weight: 600;
+  text-decoration: none;
 }
 
-/* line 99, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+/* line 132, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.contact_email a:hover {
+  color: #A52A2A;
+  transition: .3s;
+}
+
+/* line 136, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
 .contact_tell a {
   font-size: 22px;
   font-family: "MariadPro";
   color: #25365d;
   font-weight: 600;
+  text-decoration: none;
+}
+
+/* line 142, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.contact_tell a:hover {
+  color: #A52A2A;
+  transition: .3s;
 }
 
 /*# sourceMappingURL=../../css/components/plans.map */

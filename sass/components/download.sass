@@ -20,6 +20,7 @@
     letter-spacing: 1px
     color: #25365d
     z-index: 2
+    animation: fade-visibility 2s .3s
 .download_container
   display: flex
   flex-direction: column
@@ -27,23 +28,23 @@
   padding-bottom: 145px
 
 .download_text
-  p
+  span
+    display: block
+    line-height: 25px
     font-family: "MariadPro"
     letter-spacing: 0.5px
     height: 55px
     width: 700px
-
-
-
-
 .download_list
   font-family: "MariadPro"
   letter-spacing: 0.5px
   padding-top: 50px
-.download_listimg
-  // &:before
-  //   content: ""
-  //   background-image: url(img/flag.png)
+  line-height: 30px
+.img_list
+  background-image: url("../img/flag.png")
+  background-repeat: no-repeat
+  background-position: left
+  padding-left: 20px
 .download_button
   padding-top: 70px
 .btn_download
@@ -54,8 +55,14 @@
     border: 0
     color: #fff
     position: relative
+    &:hover
+      cursor: pointer
+      transition: .3s ease-in
+      transform: scale(1.4)
+      color: #808080
 .download_img
   position: absolute
   right: 210px
   transform: translateX(-90%)
   transform: translateY(-10%)
+  animation: fade-visibility 3s .7s

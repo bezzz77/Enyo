@@ -28,9 +28,10 @@
   letter-spacing: 1px;
   color: #25365d;
   z-index: 2;
+  animation: fade-visibility 2s .3s;
 }
 
-/* line 23, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 24, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_container {
   display: flex;
   flex-direction: column;
@@ -38,27 +39,38 @@
   padding-bottom: 145px;
 }
 
-/* line 30, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
-.download_text p {
+/* line 31, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+.download_text span {
+  display: block;
+  line-height: 25px;
   font-family: "MariadPro";
   letter-spacing: 0.5px;
   height: 55px;
   width: 700px;
 }
 
-/* line 39, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 38, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_list {
   font-family: "MariadPro";
   letter-spacing: 0.5px;
   padding-top: 50px;
+  line-height: 30px;
 }
 
-/* line 47, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 43, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+.img_list {
+  background-image: url("../img/flag.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 20px;
+}
+
+/* line 48, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_button {
   padding-top: 70px;
 }
 
-/* line 49, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 50, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .btn_download {
   height: 55px;
   width: 220px;
@@ -69,12 +81,21 @@
   position: relative;
 }
 
-/* line 57, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 58, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+.btn_download:hover {
+  cursor: pointer;
+  transition: .3s ease-in;
+  transform: scale(1.4);
+  color: #808080;
+}
+
+/* line 63, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_img {
   position: absolute;
   right: 210px;
   transform: translateX(-90%);
   transform: translateY(-10%);
+  animation: fade-visibility 3s .7s;
 }
 
 /*# sourceMappingURL=../../css/components/download.map */

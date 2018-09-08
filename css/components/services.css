@@ -7,17 +7,54 @@
 /* line 3, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
 .services_container {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  justify-content: space-around;
-  grid-gap: 80px;
+  grid-template-columns: 65px 200px 65px 200px 65px 200px;
+  grid-template-rows: 200px 200px;
+  justify-content: space-between;
+  grid-gap: 20px;
   padding-top: 145px;
   width: 1900px;
   height: 600px;
 }
 
-/* line 11, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+/* line 12, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
 .imgservices {
   margin-left: -60px;
+}
+
+/* line 14, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.highimg {
+  background-image: url("../img/imac.png");
+  background-repeat: no-repeat;
+}
+
+/* line 17, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.photoimg {
+  background-image: url("../img/phot.png");
+  background-repeat: no-repeat;
+}
+
+/* line 20, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.layersimg {
+  background-image: url("../img/file.png");
+  background-repeat: no-repeat;
+}
+
+/* line 23, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.supportimg {
+  background-image: url("../img/smartphone.png");
+  background-repeat: no-repeat;
+}
+
+/* line 26, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.themeimg {
+  background-image: url("../img/wand.png");
+  background-repeat: no-repeat;
+}
+
+/* line 29, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.ttvimg {
+  background-image: url("../img/share.png");
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=../../css/components/services.map */
