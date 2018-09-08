@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.intro {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/intro_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+/* line 8, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.intro__wrap {
+  padding-top: 240px;
+  text-align: center;
+}
+
+/* line 11, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.intro__wrap h1 {
+  font-size: 90px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/* line 16, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.intro_text {
+  padding-top: 35px;
+  text-align: center;
+}
+
+/* line 19, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.intro_text p {
+  color: #fff;
+  font-weight: 200;
+  word-spacing: 1px;
+}
+
+/* line 23, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.intro_button {
+  padding-top: 70px;
+  text-align: center;
+}
+
+/* line 39, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.btn_down {
+  height: 55px;
+  width: 220px;
+  border-radius: 25px;
+  background-color: #25365d;
+  border: 0;
+  color: #fff;
+  position: relative;
+}
+
+/* line 47, C:/Users/Коля/Desktop/Enyo/sass/components/intro.sass */
+.img_save {
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+
+/*# sourceMappingURL=../../css/components/intro.map */

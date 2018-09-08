@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.services {
+  background-color: #FFF0F5;
+}
+
+/* line 4, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.services_container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: space-around;
+  grid-gap: 80px;
+  padding-top: 285px;
+  width: 1900px;
+  height: 600px;
+}
+
+/* line 12, C:/Users/Коля/Desktop/Enyo/sass/components/services.sass */
+.imgservices {
+  margin-left: -60px;
+}
+
+/*# sourceMappingURL=../../css/components/services.map */

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header {
+  background-color: transparent;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  animation: fade-down 1s .1s 1 ease-in-out;
+}
+
+/* line 10, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 14, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav {
+  display: flex;
+}
+
+/* line 16, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav li {
+  margin-right: 30px;
+}
+
+/* line 18, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav li:last-child {
+  margin-right: 0;
+}
+
+/* line 20, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav-link {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  transition: .2s ease-in-out;
+}
+
+/* line 27, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav-link:after, .header__nav-link:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: .2s ease-in-out;
+}
+
+/* line 34, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav-link:after {
+  top: -4px;
+  left: 0;
+}
+
+/* line 37, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav-link:before {
+  right: 0;
+  bottom: -4px;
+}
+
+/* line 41, C:/Users/Коля/Desktop/Enyo/sass/components/header.sass */
+.header__nav-link:hover:after, .header__nav-link:hover:before {
+  width: 100%;
+}
+
+/*# sourceMappingURL=../../css/components/header.map */

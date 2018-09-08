@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Коля/Desktop/Enyo/sass/components/common.sass */
+.btn {
+  height: 55px;
+  width: 220px;
+  border-radius: 25px;
+  background-color: #25365d;
+  border: 0;
+  color: #fff;
+  position: relative;
+}
+
+/*# sourceMappingURL=../../css/components/common.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/components/services.css",
+	"sources": [
+		"../../sass/components/services.sass"
+	],
+	"sourcesContent": [
+		".services {\n  background-color: #FFF0F5; }\n\n.services_container {\n  display: grid;\n  grid-template-columns: 200px 200px 200px;\n  justify-content: space-around;\n  grid-gap: 80px;\n  padding-top: 285px;\n  width: 1900px;\n  height: 600px; }\n.imgservices {\n  margin-left: -60px; }\n// .resolution\n//   &::before\n//     content: ''\n//     background-image: url(img/high.png)\n"
+	],
+	"mappings": ";;AAAA,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,OAAQ;CAAG;;;AAE/B,AAAA,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAK;EACd,qBAAqB,EAAE,iBAAkB;EACzC,eAAe,EAAE,YAAa;EAC9B,QAAQ,EAAE,IAAK;EACf,WAAW,EAAE,KAAM;EACnB,KAAK,EAAE,MAAO;EACd,MAAM,EAAE,KAAM;CAAG;;;AACnB,AAAA,YAAY,CAAC;EACX,WAAW,EAAE,KAAM;CAAG",
+	"names": []
+}
