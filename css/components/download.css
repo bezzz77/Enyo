@@ -35,9 +35,10 @@
   display: flex;
   flex-direction: column;
   padding-top: 120px;
+  padding-bottom: 145px;
 }
 
-/* line 29, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 30, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_text p {
   font-family: "MariadPro";
   letter-spacing: 0.5px;
@@ -45,19 +46,19 @@
   width: 700px;
 }
 
-/* line 38, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 39, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_list {
   font-family: "MariadPro";
   letter-spacing: 0.5px;
   padding-top: 50px;
 }
 
-/* line 46, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 47, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_button {
   padding-top: 70px;
 }
 
-/* line 48, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 49, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .btn_download {
   height: 55px;
   width: 220px;
@@ -68,7 +69,7 @@
   position: relative;
 }
 
-/* line 56, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
+/* line 57, C:/Users/Коля/Desktop/Enyo/sass/components/download.sass */
 .download_img {
   position: absolute;
   right: 210px;

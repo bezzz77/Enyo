@@ -1,5 +1,10 @@
 @charset "UTF-8";
-/* line 2, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
+/* line 1, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
+.features_wrapp {
+  padding-bottom: 335px;
+}
+
+/* line 4, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
 .features_container h2 {
   font-size: 72px;
   font-family: "MariadPro";
@@ -9,14 +14,14 @@
   padding-top: 150px;
 }
 
-/* line 9, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
+/* line 11, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
 .img_features {
   position: absolute;
   margin-left: 170px;
   padding-top: 145px;
 }
 
-/* line 15, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
+/* line 17, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
 .features_coll1 {
   display: grid;
   grid-template-columns: 150px 150px;

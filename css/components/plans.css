@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.plans {
+  background-color: #FFF0F5;
+}
+
+/* line 4, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.plans_container {
+  padding-top: 150px;
+  width: 1900px;
+  height: 1150px;
+}
+
+/* line 8, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.plans_container h3 {
+  color: #25365d;
+  font-size: 72px;
+  font-family: "MariadPro";
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+/* line 14, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.plans_container p {
+  font-size: 16px;
+  font-family: "MariadPro";
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+/* line 19, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.plans_tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 75px;
+}
+
+/* line 24, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.basic_plan {
+  height: 285px;
+  width: 360px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* line 29, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.basic_plan h4 {
+  font-size: 18px;
+  font-family: "MariadPro";
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+/* line 34, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.basic_plan span {
+  display: inline-block;
+  font-size: 72px;
+  font-weight: 600;
+  font-family: "MariadPro";
+  color: #25365d;
+  padding-bottom: 55px;
+}
+
+/* line 41, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.prof_plan {
+  height: 285px;
+  width: 360px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* line 46, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.prof_plan h4 {
+  font-size: 18px;
+  font-family: "MariadPro";
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+/* line 51, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.prof_plan span {
+  display: inline-block;
+  font-size: 72px;
+  font-weight: 600;
+  font-family: "MariadPro";
+  color: #25365d;
+  padding-bottom: 55px;
+}
+
+/* line 58, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.master_plan {
+  height: 285px;
+  width: 360px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* line 63, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.master_plan h4 {
+  font-size: 18px;
+  font-family: "MariadPro";
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+/* line 68, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.master_plan span {
+  display: inline-block;
+  font-size: 72px;
+  font-weight: 600;
+  font-family: "MariadPro";
+  color: #25365d;
+  padding-bottom: 55px;
+}
+
+/* line 77, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.support img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/* line 81, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.support h4 {
+  font-size: 22px;
+  font-family: "MariadPro";
+  color: #25365d;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* line 87, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 91, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.contact_email {
+  padding-right: 95px;
+}
+
+/* line 93, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.contact_email a {
+  font-size: 22px;
+  font-family: "MariadPro";
+  color: #25365d;
+  font-weight: 600;
+}
+
+/* line 99, C:/Users/Коля/Desktop/Enyo/sass/components/plans.sass */
+.contact_tell a {
+  font-size: 22px;
+  font-family: "MariadPro";
+  color: #25365d;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=../../css/components/plans.map */
