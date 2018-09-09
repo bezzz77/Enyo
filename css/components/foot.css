@@ -34,16 +34,19 @@
   color: #25365d;
   font-weight: 200;
   word-spacing: 1px;
+  line-height: 25px;
+  font-family: "MariadPro";
 }
 
-/* line 23, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
+/* line 25, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
 .foot_button {
   padding-top: 70px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-/* line 39, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
-.btn_down {
+/* line 29, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
+.btn_download {
   height: 55px;
   width: 220px;
   border-radius: 25px;
@@ -53,7 +56,15 @@
   position: relative;
 }
 
-/* line 47, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
+/* line 37, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
+.btn_download:hover {
+  cursor: pointer;
+  transition: .3s ease-in;
+  transform: scale(1.2);
+  color: #808080;
+}
+
+/* line 42, C:/Users/Коля/Desktop/Enyo/sass/components/foot.sass */
 .img_save {
   vertical-align: middle;
   position: absolute;

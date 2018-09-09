@@ -7,8 +7,8 @@
 /* line 4, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
 .features_container h2 {
   font-size: 72px;
-  font-family: "MariadPro";
-  font-weight: 200;
+  font-family: "impact";
+  font-weight: 400;
   color: #25365d;
   text-align: center;
   padding-top: 150px;
@@ -30,6 +30,20 @@
   margin-top: 185px;
   grid-gap: 140px;
   line-height: 20px;
+}
+
+/* line 25, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
+.text_edit {
+  font-family: "MariadPro";
+  line-height: 22px;
+}
+
+/* line 28, C:/Users/Коля/Desktop/Enyo/sass/components/features.sass */
+.text_edit h3 {
+  font-size: 22px;
+  color: #25365d;
+  font-family: "MariadPro";
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=../../css/components/features.map */
